@@ -3,7 +3,13 @@ layout: base.njk
 ---
 <article>
   <h1>{{ title }}</h1>
-  {% if date %}<time datetime="{{ date | date }}">{{ date | date }}</time>{% endif %}
+  <p class="meta">
+    {% if date %}<time datetime="{{ date | date }}">{{ date | date }}</time>{% endif %}
+    {% if updated %}<span class="edited"> · editado em {{ updated | datetime }}</span>{% endif %}
+  </p>
+  {% if tags %}
+  <p class="tags">{% for t in tags %}<span class="tag">#{{ t }}</span> {% endfor %}</p>
+  {% endif %}
   {{ content | safe }}
 </article>
 <p style="margin-top:2.5rem"><a href="/">← voltar</a></p>
