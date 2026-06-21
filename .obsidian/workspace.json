@@ -185,6 +185,8 @@
   },
   "active": "97b7b46d7536ce95",
   "lastOpenFiles": [
+    "_includes/base.njk.tmp.13968.ea70372b49b5",
+    "_includes/base.njk.tmp.13968.9255c5ef4bd9",
     "_site/assets/home.jpg",
     "_site/assets",
     "index.njk.tmp.10264.fc5c3227ef55",
@@ -198,7 +200,6 @@
     "_site/posts/ola-mundo/index.html",
     "_site/posts/ola-mundo",
     "_site/posts",
-    "_site/index.html",
     "node_modules/list-to-array/README.md",
     "node_modules/junk/readme.md",
     "node_modules/bcp-47-match/readme.md",
