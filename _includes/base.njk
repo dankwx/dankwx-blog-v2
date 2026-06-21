@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="color-scheme" content="light" />
     <title>{% if title %}{{ title }} · {% endif %}dankwx</title>
     <style>
       :root {
-        --bg: #0d0d0f;
-        --panel: #131318;
-        --text: #c8c8c8;
-        --dim: #6f6f78;
-        --head: #f1f0ea;
-        --accent: #6ee7a8;
-        --accent2: #ff6ec7;
-        --border: #2a2a31;
+        --bg: #f4f1e8;
+        --panel: #fbfaf5;
+        --text: #1f1d1a;
+        --dim: #76726a;
+        --head: #111;
+        --accent: #0b7a4f;
+        --accent2: #c0186b;
+        --border: #d9d4c6;
         --serif: Georgia, "Times New Roman", "Noto Serif", serif;
         --mono: Consolas, "Cascadia Mono", "Cascadia Code", ui-monospace,
           "DejaVu Sans Mono", "SFMono-Regular", Menlo, "Liberation Mono",
@@ -24,10 +24,9 @@
       body {
         font-family: var(--mono);
         background-color: var(--bg);
-        /* scanlines + leve textura vertical (estática, sem JS) */
+        /* textura sutil de "papel" (estática, sem JS) */
         background-image:
-          repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0 1px, transparent 1px 3px),
-          repeating-linear-gradient(90deg, rgba(255,255,255,0.015) 0 1px, transparent 1px 40px);
+          repeating-linear-gradient(0deg, rgba(0,0,0,0.018) 0 1px, transparent 1px 4px);
         color: var(--text);
         font-size: 16.5px;
         line-height: 1.7;
@@ -56,8 +55,8 @@
         text-decoration: underline;
         text-underline-offset: 2px;
       }
-      a:visited { color: #9bbfae; }
-      a:hover { color: var(--accent2); background: rgba(255,110,199,0.08); }
+      a:visited { color: #5a6b62; }
+      a:hover { color: var(--accent2); background: rgba(192,24,107,0.08); }
 
       h1, h2, h3 { font-family: var(--serif); color: var(--head); font-weight: 600; line-height: 1.1; }
       h1 { font-size: 2.6rem; letter-spacing: -0.01em; margin: 0.2rem 0 0.6rem; }
@@ -74,7 +73,7 @@
         display: inline-block;
         color: var(--accent);
         border: 1px solid var(--border);
-        background: #1a1a20;
+        background: #eceadf;
         padding: 0 0.45rem;
         font-size: 0.78rem;
         margin-right: 0.3rem;
@@ -88,7 +87,7 @@
       ul.posts li::before { content: ">> "; color: var(--accent); }
       ul.posts time { margin-right: 0.6rem; color: var(--dim); }
 
-      pre, code { background: #0a0a0c; color: #d6d6d6; }
+      pre, code { background: #ece9df; color: #2a2a26; }
       pre { padding: 0.9rem; overflow-x: auto; border: 1px solid var(--border); }
       code { padding: 0.05rem 0.3rem; border: 1px solid var(--border); }
       pre code { border: none; padding: 0; }
@@ -105,7 +104,6 @@
         display: block;
         margin: 0 auto 1.4rem;
         border: 1px solid var(--border);
-        filter: grayscale(0.15) contrast(1.05);
       }
 
       footer {
