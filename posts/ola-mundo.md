@@ -1,6 +1,7 @@
 ---
 title: Olá mundo
 date: 2026-06-21
+updated: 2026-06-25 17:45
 ---
 
 Meu primeiro post escrito no **Obsidian**.
