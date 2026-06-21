@@ -19,6 +19,23 @@ export default function (eleventyConfig) {
     },
   });
 
+  // Converte o embed de imagem do Obsidian (![[arquivo.jpg]]) para markdown
+  // padrão (![](/assets/arquivo.jpg)) antes da renderização, para que a imagem
+  // vire uma <img> de verdade (e seja otimizada pelo plugin acima). Aceita
+  // rótulo opcional: ![[arquivo.jpg|texto alternativo]].
+  eleventyConfig.addPreprocessor("obsidian-embeds", "md", (data, content) => {
+    return content.replace(
+      /!\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g,
+      (match, file, label) => {
+        const nome = file.trim();
+        // Só trata imagens; outros embeds (notas etc.) passam batido.
+        if (!/\.(jpe?g|png|gif|webp|avif|svg)$/i.test(nome)) return match;
+        const alt = label ? label.trim() : "";
+        return `![${alt}](/assets/${nome})`;
+      }
+    );
+  });
+
   // Coleção de posts definida pela pasta (não pela tag "post"), assim o campo
   // "tags" do front matter fica livre para uso do autor
   eleventyConfig.addCollection("post", (api) =>
