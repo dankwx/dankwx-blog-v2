@@ -1,7 +1,7 @@
 ---
 title: Olá mundo
 date: 2026-06-21
-updated: 2026-06-25 17:45
+updated: 2026-06-21 17:49
 ---
 
 Meu primeiro post escrito no **Obsidian**.
@@ -15,3 +15,4 @@ Escrevo em Markdown normal e o Eleventy converte pra HTML. Posso usar:
 > Pra criar um novo post, é só duplicar esta nota dentro da pasta `posts/`.
 
 test!
+second test!
