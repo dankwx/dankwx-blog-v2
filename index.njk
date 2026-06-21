@@ -2,7 +2,18 @@
 layout: base.njk
 title: ""
 ---
-<h1>Posts</h1>
+<img class="home-img" src="/assets/home.jpg" alt="" width="380" />
+
+<h1>★ welcome ★</h1>
+
+<p>
+  bem-vindo ao meu cantinho da internet. anotações, ideias e o que mais
+  aparecer. escrito no Obsidian.
+</p>
+
+<hr />
+
+<h2>posts</h2>
 <ul class="posts">
   {%- for post in collections.post | reverse %}
   <li>

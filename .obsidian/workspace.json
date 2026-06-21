@@ -11,10 +11,14 @@
             "id": "97b7b46d7536ce95",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "posts/ola-mundo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ola-mundo"
             }
           }
         ]
@@ -181,18 +185,20 @@
   },
   "active": "97b7b46d7536ce95",
   "lastOpenFiles": [
+    "_site/assets/home.jpg",
+    "_site/assets",
+    "index.njk.tmp.10264.fc5c3227ef55",
+    "eleventy.config.js.tmp.10264.4fe01a079e2c",
+    "_includes/base.njk.tmp.10264.acf2f30732a0",
+    "eleventy.config.js.tmp.10264.ce0a05aaa5d8",
+    "assets/home.jpg",
+    "assets",
+    "Welcome.md",
+    "posts/ola-mundo.md",
     "_site/posts/ola-mundo/index.html",
     "_site/posts/ola-mundo",
     "_site/posts",
     "_site/index.html",
-    "_site",
-    "netlify.toml",
-    "netlify.toml.tmp.6028.6be091d92873",
-    "index.njk",
-    "index.njk.tmp.6028.aa6c96f0334f",
-    "posts/ola-mundo.md",
-    "posts/ola-mundo.md.tmp.6028.d1702f7dd10d",
-    "posts/posts.json",
     "node_modules/list-to-array/README.md",
     "node_modules/junk/readme.md",
     "node_modules/bcp-47-match/readme.md",
@@ -215,7 +221,6 @@
     "node_modules/@11ty/eleventy-utils/README.md",
     "node_modules/@11ty/eleventy-plugin-bundle/README.md",
     "node_modules/ssri/README.md",
-    "node_modules/parse-srcset/README.md",
-    "node_modules/@11ty/eleventy/SECURITY.md"
+    "node_modules/parse-srcset/README.md"
   ]
 }

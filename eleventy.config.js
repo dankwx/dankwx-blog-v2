@@ -1,7 +1,11 @@
 export default function (eleventyConfig) {
+  // Copia a pasta assets/ (imagens, etc.) direto pro site gerado
+  eleventyConfig.addPassthroughCopy("assets");
+
   // Formata datas de forma legível em pt-BR (usado nos templates via | date)
   eleventyConfig.addFilter("date", (value) => {
-    const d = value instanceof Date ? value : new Date(value);
+    const d =
+      value instanceof Date ? value : value === "now" ? new Date() : new Date(value);
     return d.toLocaleDateString("pt-BR", {
       day: "2-digit",
       month: "long",
