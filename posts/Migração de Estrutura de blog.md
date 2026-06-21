@@ -15,3 +15,5 @@ Otimizado também todas imagens do site, com AVIV com fallback em WebP pra extra
 Aproveitado também a mudança pra começar a utilizar esse tema retro/neocities que combina com o aspecto rápido e pacote leves da web.
 
 Até agora diria que a criação e manuntenção de posts ficou 90% mais simples de realizar, sem problemas, mais fácil de manter o repositório, e satisfatório.
+
+![[raot.jpg]]

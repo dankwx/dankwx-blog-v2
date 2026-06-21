@@ -2,12 +2,8 @@
 layout: base.njk
 title: ""
 ---
-<picture>
-  <source srcset="/assets/home.avif" type="image/avif" />
-  <source srcset="/assets/home.webp" type="image/webp" />
-  <img class="home-img" src="/assets/home.jpg" alt="" width="380" height="430"
-       decoding="async" fetchpriority="high" />
-</picture>
+<img class="home-img" src="/assets/home.jpg" alt="" width="380" height="430"
+     loading="eager" decoding="async" fetchpriority="high" />
 
 <h1>high tech, low life</h1>
 

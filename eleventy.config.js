@@ -1,6 +1,23 @@
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+
 export default function (eleventyConfig) {
-  // Copia a pasta assets/ (imagens, etc.) direto pro site gerado
+  // Copia a pasta assets/ (fontes, ícones, etc.) direto pro site gerado.
+  // As imagens referenciadas em <img>/markdown são otimizadas pelo plugin
+  // abaixo, mas o passthrough garante que o original também exista no site.
   eleventyConfig.addPassthroughCopy("assets");
+
+  // Otimização automática de imagens: varre o HTML gerado e, para toda <img>
+  // (inclusive as vindas de ![]() do markdown), gera versões avif/webp +
+  // o formato original como fallback, trocando a tag por um <picture>.
+  // As versões processadas vão para _site/img/.
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    formats: ["avif", "webp", "auto"], // "auto" = mantém o formato original como fallback
+    widths: ["auto"], // mantém a resolução original (sem upscaling)
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+    },
+  });
 
   // Coleção de posts definida pela pasta (não pela tag "post"), assim o campo
   // "tags" do front matter fica livre para uso do autor
