@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "d17628d939b2e94c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcd72c6286241123",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97b7b46d7536ce95",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "93eb6934e0b632d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc945f36fa73cd1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d37e9c3967ed75f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e1a270a189aa58c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ba9ff453b07f93d2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b67f6a51eb268932",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4c063681e36f24e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c9b5b8928dea834",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "28d19a4c01e5d3aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "fb15dd3a08b29a12",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9f70b8dfead224a1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "de9f22e48d2e7f3e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "97b7b46d7536ce95",
+  "lastOpenFiles": [
+    "_site/posts/ola-mundo/index.html",
+    "_site/posts/ola-mundo",
+    "_site/posts",
+    "_site/index.html",
+    "_site",
+    "netlify.toml",
+    "netlify.toml.tmp.6028.6be091d92873",
+    "index.njk",
+    "index.njk.tmp.6028.aa6c96f0334f",
+    "posts/ola-mundo.md",
+    "posts/ola-mundo.md.tmp.6028.d1702f7dd10d",
+    "posts/posts.json",
+    "node_modules/list-to-array/README.md",
+    "node_modules/junk/readme.md",
+    "node_modules/bcp-47-match/readme.md",
+    "node_modules/is-alphabetical/readme.md",
+    "node_modules/is-decimal/readme.md",
+    "node_modules/encodeurl/README.md",
+    "node_modules/asap/README.md",
+    "node_modules/asap/LICENSE.md",
+    "node_modules/asap/CHANGES.md",
+    "node_modules/@11ty/lodash-custom/README.md",
+    "node_modules/a-sync-waterfall/README.md",
+    "node_modules/range-parser/README.md",
+    "node_modules/range-parser/HISTORY.md",
+    "node_modules/@sindresorhus/slugify/readme.md",
+    "node_modules/@11ty/recursive-copy/README.md",
+    "node_modules/linkify-it/README.md",
+    "node_modules/morphdom/docs/virtual-dom.md",
+    "node_modules/morphdom/docs/old-benchmark.md",
+    "node_modules/iso-639-1/CHANGELOG.md",
+    "node_modules/@11ty/eleventy-utils/README.md",
+    "node_modules/@11ty/eleventy-plugin-bundle/README.md",
+    "node_modules/ssri/README.md",
+    "node_modules/parse-srcset/README.md",
+    "node_modules/@11ty/eleventy/SECURITY.md"
+  ]
+}

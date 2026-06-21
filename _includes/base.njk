@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if title %}{{ title }} · {% endif %}dankwx</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+        line-height: 1.65;
+      }
+      header { margin-bottom: 2.5rem; }
+      header a { font-weight: 700; text-decoration: none; font-size: 1.25rem; }
+      a { color: #0b67d0; }
+      h1 { line-height: 1.2; }
+      time { color: #777; font-size: 0.9rem; }
+      ul.posts { list-style: none; padding: 0; }
+      ul.posts li { margin: 0.6rem 0; display: flex; gap: 0.75rem; align-items: baseline; }
+      pre, code { background: rgba(127,127,127,0.12); border-radius: 4px; }
+      pre { padding: 1rem; overflow-x: auto; }
+      code { padding: 0.1rem 0.3rem; }
+      img { max-width: 100%; height: auto; }
+      footer { margin-top: 4rem; color: #999; font-size: 0.85rem; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/">dankwx</a>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+      Feito no Obsidian, gerado com Eleventy.
+    </footer>
+  </body>
+</html>
