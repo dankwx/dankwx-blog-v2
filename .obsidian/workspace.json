@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcd72c6286241123",
+        "id": "90a2407e828d5ad2",
         "type": "tabs",
         "children": [
           {
-            "id": "97b7b46d7536ce95",
+            "id": "4bb3b7efb0a9b626",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d37e9c3967ed75f",
+  "active": "4bb3b7efb0a9b626",
   "lastOpenFiles": [
+    "posts/ola-mundo.md",
     "eleventy.config.js.tmp.1320.523cebf9ca37",
     "_site/posts/teste-tags/index.html",
     "_site/posts/teste-tags",
@@ -211,14 +212,12 @@
     "index.njk.tmp.7804.1113193f5f52",
     "assets/home.webp",
     "assets/home.avif",
-    "node_modules/@img/sharp-win32-x64/lib/sharp-win32-x64-0.35.2.node",
     "node_modules/detect-libc/README.md",
     "node_modules/@img/colour/README.md",
     "node_modules/@img/colour/LICENSE.md",
     "_site/assets/home.jpg",
     "assets/home.jpg",
     "Welcome.md",
-    "posts/ola-mundo.md",
     "node_modules/list-to-array/README.md",
     "node_modules/junk/readme.md",
     "node_modules/bcp-47-match/readme.md",

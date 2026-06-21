@@ -2,6 +2,9 @@
 title: Olá mundo
 date: 2026-06-21
 updated: 2026-06-21 17:49
+tags:
+  - test
+  - another-tags-test
 ---
 
 Meu primeiro post escrito no **Obsidian**.
